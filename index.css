@@ -1,0 +1,149 @@
+.header{
+   border: 10px groove yellowgreen; 
+   margin: 0px;
+}
+
+
+
+.parent{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;    
+}
+
+
+.block{
+    margin: 10px;
+    border: 3px solid black;
+    height: 100px;
+    width: 350px;
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+    padding-bottom:15px;
+}
+
+.block1{
+    width: 300px;
+    height: 65px;
+    border-radius: 25px;
+    border-width: 6px;
+    background-color:gold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.block2{
+    width: 325px;
+    height:50px;
+    border-radius: 25px;
+    border-width: 6px;
+    background-color:gold;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left: 50px;
+}
+
+.block3{
+    width: 300px;
+    border-radius: 25px;
+    border-width: 6px;
+    background-color:gold;
+    text-align:center;
+    line-height: 30px;
+    margin: 10px;
+    padding-left: 90px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.parent1{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    margin:25px;   
+}
+
+.block4{
+    margin: 150px;
+    border: 3px solid black;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 50%;
+    text-align : center;
+    text-decoration-line: underline;
+    background-color:gold;
+    border-width: 6px;
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 25px    ;
+}
+
+.border{
+    border-bottom: 3px solid black;
+}
+
+.form{
+    background-color: gold;
+    border: 4px dashed black;
+    width: 315px;
+    height: 550px;
+    text-align:center;
+    line-height: 25px;
+    margin-left: 40px;
+}
+
+.parent2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border: 3px solid black;
+    width: 300px;
+    height:40px;
+    background-color:red;
+    justify-content: center;
+    margin-left: 475px;
+    border-radius: 25px;
+    padding-bottom: 35px;
+    border-width: 6px;
+    margin-bottom: 10px;
+}
+
+.menulist{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    border-top: 5px solid blACK;
+}
+
+.starters, .indian, .southindian, .rice, .bread, .beverages{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 65px;
+    justify-content:space-evenly;
+    background-color:gold;
+    text-align:center;
+    border-radius: 15px;
+    color: crimson;
+}
+
+.beverages{
+    width: 250px;
+    height: 275px;
+    border: 2px solid black;
+    margin: 45px;
+    justify-content:space-evenly;
+    background-color:gold;
+    text-align:center;
+    border-radius: 15px;
+    color: crimson;
+}
+
